@@ -1,7 +1,7 @@
 # Keyboard MCU List
 
-This is a list of RP2040-based MCUs that can be used in keyboard projects. Much of this data comes
-from [Keyboard Builders’ Digest](https://kbd.news) as well as
+This is a list of RP2040-based microcontroller unit (MCU) boards that can be used in keyboard
+projects. Much of this data comes from [Keyboard Builders’ Digest](https://kbd.news) as well as
 [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/).
 
 ## RP2040 Pro Micro-Shaped MCUs
