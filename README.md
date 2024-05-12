@@ -111,16 +111,16 @@ from [Keyboard Builders’ Digest](https://kbd.news) as well as
 
 
 
-## RP2040 Non-Pro Micro Shaped MCUs
+## Other RP2040 MCUs
 
 A small selection of RP2040-based MCUs that are *not* shaped like a Pro Micro.
 
-| Name              | Open        | Vendor             |  Size (mm)  | Colour | Cast.| Flash | Total GPIO   |  USB Port  | USB Brk. Out | Power LED | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
-|-------------------|:-----------:|--------------------|:-----------:|:------:|:----:|:-----:|--------------|:----------:|:------------:|:---------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
-| Raspberry Pi Pico | [Yes][Opp]  | [Various][rp]      | 21.0 × 51.3 | Green  | Yes  |   2MB | 26           | Top, Micro!|     Pads     |    No     |   RGB    |     No      | 1 (front) |  GPIO24  |    $4 |   $4 |    $8 |
-| RP2040-Zero       | [Part][Op0] | [WaveShare][ws]    | 18.0 × 23.5 | Blue   | Yes  |   2MB | 20, 9 (pads) |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |    $4 |   $6 |   $10 |
-| Seeed XIAO RP2040 | [Part][Osx] | [Seeed Studio][ss] | 17.5 × 21.0 | Black  | Yes  |   2MB | 11           |    Top     |     No       |    Red    |RGB, 3RG&B|     No      | 2 (front) |  No      |    $5 |   $7 |   $12 |
-| Stampy            | No          | [Keebio][ke]       | 57.3 × 21.5 | Purple | No   |   2MB | 26           |    Top     |     No       |    No     |   No     |     No      | 1 (front) |  GPIO9   |   $13 |   $6 |   $19 |
+| Name              | Open        | Vendor             | Size (mm) | Colour | Cast.| Flash | Total GPIO   |  USB Port  | USB Brk. Out | Power LED | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
+|-------------------|:-----------:|--------------------|:---------:|:------:|:----:|:-----:|--------------|:----------:|:------------:|:---------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
+| Raspberry Pi Pico | [Yes][Opp]  | [Various][rp]      | 21.0×51.3 | Green  | Yes  |   2MB | 26           | Top, Micro!|     Pads     |    No     |   RGB    |     No      | 1 (front) |  GPIO24  |    $4 |   $4 |    $8 |
+| RP2040-Zero       | [Part][Op0] | [WaveShare][ws]    | 18.0×23.5 | Blue   | Yes  |   2MB | 20, 9 (pads) |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |    $4 |   $6 |   $10 |
+| Seeed XIAO RP2040 | [Part][Osx] | [Seeed Studio][ss] | 17.5×21.0 | Black  | Yes  |   2MB | 11           |    Top     |     No       |    Red    |RGB, 3RG&B|     No      | 2 (front) |  No      |    $5 |   $7 |   $12 |
+| Stampy            | No          | [Keebio][ke]       | 57.3×21.5 | Purple | No   |   2MB | 26           |    Top     |     No       |    No     |   No     |     No      | 1 (front) |  GPIO9   |   $13 |   $6 |   $19 |
 
 [Opp]: https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico
 [Op0]: https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf
