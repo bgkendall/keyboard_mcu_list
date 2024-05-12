@@ -4,6 +4,9 @@ This is a list of RP2040-based microcontroller unit (MCU) boards that can be use
 projects. Much of this data comes from [Keyboard Builders’ Digest](https://kbd.news) as well as
 [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/).
 
+For wireless builds, see [this list of NRF52840-based
+boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
+
 ## RP2040 Pro Micro-Shaped MCUs
 
 | Name                 | Open        | Vendor                 | Colour  | Cast.| Flash | Extra GPIO                    | USB Port | USB Brk. Out | Power LED         | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
