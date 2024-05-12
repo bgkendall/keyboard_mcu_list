@@ -14,15 +14,15 @@ from [Keyboard Builders’ Digest](https://kbd.news) as well as
 |                      |             | [Ringer Keys][rk]      |         |      |       |                                    |          |              |                   |          |             |           |          |   $20 |   $5 |   $25 |
 |                      |             | [RNDKBD][rn]           |         |      |       |                                    |          |              |                   |          |             |           |          |   $18 |   $6 |   $24 |
 | **Bit-C PRO**        | No          | [nullbits][nb]         |Black, White|No |   4MB | 4 (bottom)                         |   Top    |    No        | Uses user LEDs    | 3 — RG&B |     Yes     | 0         |  No      |   $20 |   $0 |   $20 |
-| **Blok**             | No          | [Boardsource][bs]      |  Black  | Yes  |  16MB | 0, see also note (1) below         |   Mid    |    No        | Purple            |   RGB    |     No      | 2 (side)  |  No      |   $14 |   $5 |   $19 |
+| **Blok**             | No          | [Boardsource][bs]      |  Black  | Yes  |  16MB | 0, see note (1) below              |   Mid    |    No        | Purple            |   RGB    |     No      | 2 (side)  |  No      |   $14 |   $5 |   $19 |
 | **Elite-Pi**         | No          | [1upkeyboards][1u]     |  Blue   | Yes  |   2MB | 5 (bottom), 2 (pads)               |   Mid    |    Pads      | No                |   No     |     No      | 2 (front) |  No      |   $17 |   $0 |   $17 |
 |                      |             | [Keebio][io]           |         |      |       |                                    |          |              |                   |          |             |           |          |   $13 |   $5 |   $18 |
 | **Frood RP2040**     | [Yes][Ofr]  | [42.Keebs][42]         | Various | No   |   4MB | 5                                  |   Mid    |    Top       | No                |  Orange  |     No      | 2 (front) |  GPIO19  |   €11 |   €5 |   €16 |
-| **KB2040 Kee Boar**  | No          | [Adafruit][af]         |  Black  | Yes  |   8MB | 2 (Qwiic), see also note (2) below |   Top    |    Top       | Green             |   RGB    |     No      | 2 (front) |  No      |    $9 |   $4 |   $13 |
+| **KB2040 Kee Boar**  | No          | [Adafruit][af]         |  Black  | Yes  |   8MB | 2 (Qwiic), see note (2) below      |   Top    |    Top       | Green             |   RGB    |     No      | 2 (front) |  No      |    $9 |   $4 |   $13 |
 | **key micro RP**     | No          | [BOOTH][bo]            |  Black  | No   |   4MB | 0                                  |   Mid    |    Pads      | No                |   No     |     No      | 2 (side)  |  No      | ¥2700 |    ? |     ? |
-| **Laitris**          | No          | [splitkb][sk]          |  Black  | Yes  |  16MB | 5 (row, 5V)                        |   Mid    |    Pads      | Yes (back, GPIO24)|   RGB    |     No      | 1 (back)  |  No      |   €15 |  €18 |   €33 |
+| **Laitris**          | No          | [splitkb][sk]          |  Black  | Yes  |  16MB | 5 (bottom), see note (3) below     |   Mid    |    Pads      | Yes (back, GPIO24)|   RGB    |     No      | 1 (back)  |  No      |   €15 |  €18 |   €33 |
 | **Pro Micro RP2040** | [Yes][Opm]  | [SparkFun][sf]         |   Red   | Yes  |  16MB | 2 (Qwiic)                          |   Top    |    Pads      | Red               |   RGB    |     No      | 2 (front) |  No      |   $11 |  $11 |   $22 |
-| **RP2040 Pro Micro** | No          | [Tenstar Robot][tr]³   |  Black  | No   | 4/16MB| 5 (bottom), 3 (inset)              |   Mid    |    No        | No                |   RGB    |     No      | 2 (front) |  No      |    $3 |   $2 |    $5 |
+| **RP2040 Pro Micro** | No          | [Tenstar Robot][tr]⁴   |  Black  | No   | 4/16MB| 5 (bottom), 3 (inset)              |   Mid    |    No        | No                |   RGB    |     No      | 2 (front) |  No      |    $3 |   $2 |    $5 |
 | **Sea-Picro EXT**    | [Yes][Osp]  | [beekeeb][bk]          |  Black  | No   |  16MB | 5 (bottom), 1 (inset, 5V)          |   Mid    |    Top       | No                |   No     |     Yes     | 0         |  GPIO19  |   $10 |   $8 |   $18 |
 |                      |             | [Custom KBD][ck]       |  Black  | Yes  |       |                                    |          |              |                   |          |             |           |          |   $17 |  $15 |   $32 |
 | **Sea-Picro RST**    | [Yes][Osp]  | None                   |  Black  | No   |  16MB | 0                                  |   Mid    |    Top       | No                |   RGB    |     Yes     | 1 (front) |  GPIO19  |       |      |       |
@@ -106,7 +106,8 @@ from [Keyboard Builders’ Digest](https://kbd.news) as well as
  1. Blok has [GPIO 16 and 17](https://peg.software/docs/blok) instead of 2 and 3 respectively.
  2. KB2040 has [GPIO 10, 18 and 19](https://learn.adafruit.com/adafruit-kb2040/pinouts) instead of
     21, 22 and 23 respectively.
- 3. The unbranded “RP2040 Pro Micro” is available at [various AliExpress
+ 3. Liatris runs at 3.6V for better 5V signal compatibility.
+ 4. The unbranded “RP2040 Pro Micro” is available at [various AliExpress
     stores](https://www.aliexpress.com/w/wholesale-RP2040-Pro-Micro.html).
 
 
