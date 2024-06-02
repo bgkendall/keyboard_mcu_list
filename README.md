@@ -1,4 +1,4 @@
-# Keyboard MCU List
+# Keyboard Controller Board List
 
 This is a list of RP2040-based microcontroller unit (MCU) boards that can be used in keyboard
 projects. Much of this data comes from [Keyboard Builders’ Digest](https://kbd.news) as well as
@@ -7,7 +7,7 @@ projects. Much of this data comes from [Keyboard Builders’ Digest](https://kbd
 For wireless builds, see [this list of NRF52840-based
 boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 
-## RP2040 Pro Micro-Shaped MCUs
+## RP2040 Pro Micro-Shaped Boards
 
 | Name                 | Open        | Vendor                 | Colour  | Cast.| Flash | Extra GPIO                    | USB Port | USB Brk. Out | Power LED         | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
 |----------------------|:-----------:|------------------------|:-------:|:----:|:-----:|-------------------------------|:--------:|:------------:|:-----------------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
@@ -76,30 +76,30 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
     * 5V — indicates that the output signal is at 5V rather that 3.3V, which means that RGB LEDs can
       be driven at spec
  * USB Port — all boards are USB C unless noted, a mid-mount board will typically result in an
-   overall MCU thickness of 3.2mm (the thickness of a USB C port), while a top-mount board will be
+   overall thickness of 3.2mm (the thickness of a USB C port), while a top-mount board will be
    3.2mm plus the thickness of the PCB (typically 1.6mm).
  * USB Brk. Out — indicates whether there is access to the USB data (i.e., whether a USB breakout
-   board be used with this MCU), and the type and approximate location of the access points.
+   board be used with this controller), and the type and approximate location of the access points.
    Locations are as Extra GPIO pins above.
  * User LED — indicates whether there is an onboard LED (single colour or RGB) that can be accessed
    from firmware.
  * 1-Btn. Boot — indicates whether the board has a combined reset and boot circuit (e.g., a short
    press will reset, while a long press will reboot). This means that only one on-board reset/boot
-   button is required and off-MCU reset buttons can be used to go into boot-loader mode (once
+   button is required and off-board reset buttons can be used to go into boot-loader mode. (Once
    installed and appropriately configured, QMK can also trigger this via [a double-tap of the reset
-   button](https://docs.qmk.fm/#/platformdev_rp2040?id=double-tap)).
+   button](https://docs.qmk.fm/#/platformdev_rp2040?id=double-tap).)
  * Buttons — indicates whether there are onboard reset/boot buttons and their general location:
     * Front — the side of the board with most components and the USB port (if top mounted)
     * Back — the other, usually unpopulated, side of the board
     * Side — facing sideways from the board in the opposite direction to the USB port
  * VBus Det. — indicates whether the board has a built-in VBUS detection circuit.
- * Price — price of a single MCU before tax as of March 2024 in US dollars, euros or yen. To be used
+ * Price — price of a single board before tax as of March 2024 in US dollars, euros or yen. To be used
    as a very rough guide to comparative cost.
- * Ship. — lowest available cost as of March 2024 in US dollars or euros of shipping one MCU to
+ * Ship. — lowest available cost as of March 2024 in US dollars or euros of shipping one board to
    the continental US (if possible). Populated with an appropriate country/region code if shipping
    area is limited.
  * Total — Price plus Shipping. Again, to be used as a very rough guide to comparative cost for a
-   single MCU. Does not include cost savings for multiple units, etc.
+   single board. Does not include cost savings for multiple units, etc.
 
 [Qwiic]: https://www.sparkfun.com/qwiic
 [VIK]: https://github.com/sadekbaroudi/vik
@@ -115,9 +115,9 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 
 
 
-## Other RP2040 MCUs
+## Other RP2040 Boards
 
-A small selection of RP2040-based MCUs that are *not* shaped like a Pro Micro.
+A small selection of RP2040-based controller boards that are *not* shaped like a Pro Micro.
 
 | Name              | Open        | Vendor             | Size (mm) | Colour | Cast.| Flash | Total GPIO   |  USB Port  | USB Brk. Out | Power LED | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
 |-------------------|:-----------:|--------------------|:---------:|:------:|:----:|:-----:|--------------|:----------:|:------------:|:---------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
