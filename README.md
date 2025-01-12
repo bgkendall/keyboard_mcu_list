@@ -25,7 +25,7 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 | **Frood RP2040**     | [Yes][Ofr]  | [42.Keebs][42]         | Various | No   |   4MB | 5                             |   Mid    |    Top       | No                |  Orange  |     No      | 2 (front) |  GPIO19  |   €11 |   €5 |   €16 |
 | **KB2040 Kee Boar**  | No          | [Adafruit][af]         |  Black  | Yes  |   8MB | 2 Qwiic; see note (2) below   |   Top    |    Top       | Green             |   RGB    |     No      | 2 (front) |  No      |    $9 |   $4 |   $13 |
 | **key micro RP**     | No          | [BOOTH][bo]            |  Black  | No   |   4MB | 0                             |   Mid    |    Pads      | No                |   No     |     No      | 2 (side)  |  No      | ¥2700 |    ? |     ? |
-| **Laitris**          | No          | [splitkb][sk]          |  Black  | Yes  |  16MB | 5 bottom; see note (3) below  |   Mid    |    Pads      | Yes (back, GPIO24)|   RGB    |     No      | 1 (back)  |  No      |   €15 |  €18 |   €33 |
+| **Liatris**          | No          | [splitkb][sk]          |  Black  | Yes  |  16MB | 5 bottom; see note (3) below  |   Mid    |    Pads      | Yes (back, GPIO24)|   RGB    |     No      | 1 (back)  |  No      |   €15 |  €18 |   €33 |
 | **Pro Micro RP2040** | [Yes][Opm]  | [SparkFun][sf]         |   Red   | Yes  |  16MB | 2 Qwiic                       |   Top    |    Pads      | Red               |   RGB    |     No      | 2 (front) |  No      |   $11 |  $11 |   $22 |
 | **RP2040 Pro Micro** | No          | [Tenstar Robot][tr]⁴’⁵ |  Black  | No   | 4/16MB| 5 bottom, 2 top, 3 inset      |   Mid    |    No        | No                |   Red⁶   |     No      | 2 (front) |  GPIO19⁷ |    $3 |   $2 |    $5 |
 | **Sea-Picro EXT**    | [Yes][Osp]  | [beekeeb][bk]          |  Black  | No   |  16MB | 5 bottom, 1 inset (5V)        |   Mid    |    Top       | No                |   No     |     Yes     | 0         |  GPIO19  |   $10 |   $8 |   $18 |
@@ -111,7 +111,10 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
  1. Blok has [GPIO 16 and 17](https://peg.software/docs/blok) instead of 2 and 3 respectively.
  2. KB2040 has [GPIO 10, 18 and 19](https://learn.adafruit.com/adafruit-kb2040/pinouts) instead of
     21, 22 and 23 respectively.
- 3. Liatris runs at 3.6V for better 5V signal compatibility.
+ 3. Liatris has some advanced electrical features:
+    * runs at 3.6V for better 5V signal compatibility,
+    * has a jumper to select the VCC pin voltage (5V by default), and
+    * has a jumper to enable or disable the RAW pin (disabled by default).
  4. The unbranded “RP2040 Pro Micro” is available at [various AliExpress
     stores](https://www.aliexpress.com/w/wholesale-RP2040-Pro-Micro.html). However, see the
     following note…
