@@ -22,12 +22,12 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 | **Blok**             | No          | [Boardsource][bs]      |  Black  | Yes  |  16MB | 0; see note (1) below         |   Mid    |    No        | Purple            |   RGB    |     No      | 2 (side)  |  No      |   $14 |   $5 |   $19 |
 | **Elite-Pi**         | No          | [1upkeyboards][1u]     |  Blue   | Yes  |   2MB | 5 bottom, 2 pads              |   Mid    |    Pads      | No                |   No     |     No      | 2 (front) |  No      |   $17 |   $0 |   $17 |
 |                      |             | [Keebio][io]           |         |      |       |                               |          |              |                   |          |             |           |          |   $13 |   $5 |   $18 |
-| **Frood RP2040**     | [Yes][Ofr]  | [42.Keebs][42]         | Various | No   |   4MB | 5                             |   Mid    |    Top       | No                |  Orange  |     No      | 2 (front) |  GPIO19  |   €11 |   €5 |   €16 |
-| **KB2040 Kee Boar**  | No          | [Adafruit][af]         |  Black  | Yes  |   8MB | 2 Qwiic; see note (2) below   |   Top    |    Top       | Green             |   RGB    |     No      | 2 (front) |  No      |    $9 |   $4 |   $13 |
+| **Frood RP2040**     | [Yes][Ofr]  | [42.Keebs][42]         | Various | No   |   4MB | 5 bottom; 2—see note (2) below|   Mid    |    Top       | No                |  Orange  |     No      | 2 (front) |  GPIO19  |   €11 |   €5 |   €16 |
+| **KB2040 Kee Boar**  | No          | [Adafruit][af]         |  Black  | Yes  |   8MB | 2 Qwiic; see note (3) below   |   Top    |    Top       | Green             |   RGB    |     No      | 2 (front) |  No      |    $9 |   $4 |   $13 |
 | **key micro RP**     | No          | [BOOTH][bo]            |  Black  | No   |   4MB | 0                             |   Mid    |    Pads      | No                |   No     |     No      | 2 (side)  |  No      | ¥2700 |    ? |     ? |
-| **Liatris**          | No          | [splitkb][sk]          |  Black  | Yes  |  16MB | 5 bottom; see note (3) below  |   Mid    |    Pads      | Yes (back, GPIO24)|   RGB    |     No      | 1 (back)  |  No      |   €15 |  €18 |   €33 |
+| **Liatris**          | No          | [splitkb][sk]          |  Black  | Yes  |  16MB | 5 bottom; see note (4) below  |   Mid    |    Pads      | Yes (back, GPIO24)|   RGB    |     No      | 1 (back)  |  No      |   €15 |  €18 |   €33 |
 | **Pro Micro RP2040** | [Yes][Opm]  | [SparkFun][sf]         |   Red   | Yes  |  16MB | 2 Qwiic                       |   Top    |    Pads      | Red               |   RGB    |     No      | 2 (front) |  No      |   $11 |  $11 |   $22 |
-| **RP2040 Pro Micro** | No          | [Tenstar Robot][tr]⁴’⁵ |  Black  | No   | 4/16MB| 5 bottom, 2 top, 3 inset      |   Mid    |    No        | No                |   Red⁶   |     No      | 2 (front) |  GPIO19⁷ |    $3 |   $2 |    $5 |
+| **RP2040 Pro Micro** | No          | [Tenstar Robot][tr]⁵’⁶ |  Black  | No   | 4/16MB| 5 bottom, 2 top, 3 inset      |   Mid    |    No        | No                |   Red⁷   |     No      | 2 (front) |  GPIO19⁸ |    $3 |   $2 |    $5 |
 | **Sea-Picro EXT**    | [Yes][Osp]  | [beekeeb][bk]          |  Black  | No   |  16MB | 5 bottom, 1 inset (5V)        |   Mid    |    Top       | No                |   No     |     Yes     | 0         |  GPIO19  |   $10 |   $8 |   $18 |
 |                      |             | [Custom KBD][ck]       |  Black  | Yes  |       |                               |          |              |                   |          |             |           |          |   $17 |  $15 |   $32 |
 | **Sea-Picro RST**    | [Yes][Osp]  | None                   |  Black  | No   |  16MB | 0                             |   Mid    |    Top       | No                |   RGB    |     Yes     | 1 (front) |  GPIO19  |       |      |       |
@@ -109,22 +109,23 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 ### Notes on Rows
 
  1. Blok has [GPIO 16 and 17](https://peg.software/docs/blok) instead of 2 and 3 respectively.
- 2. KB2040 has [GPIO 10, 18 and 19](https://learn.adafruit.com/adafruit-kb2040/pinouts) instead of
+ 2. Frood has jumpers that allow ground pins 4 and 5 to be used as GPIO
+ 3. KB2040 has [GPIO 10, 18 and 19](https://learn.adafruit.com/adafruit-kb2040/pinouts) instead of
     21, 22 and 23 respectively.
- 3. Liatris has some advanced electrical features:
+ 4. Liatris has some advanced electrical features:
     * runs at 3.6V for better 5V signal compatibility,
     * has a jumper to select the VCC pin voltage (5V by default), and
     * has a jumper to enable or disable the RAW pin (disabled by default).
- 4. The unbranded “RP2040 Pro Micro” is available at [various AliExpress
+ 5. The unbranded “RP2040 Pro Micro” is available at [various AliExpress
     stores](https://www.aliexpress.com/w/wholesale-RP2040-Pro-Micro.html). However, see the
     following note…
- 5. **CAUTION**: There are some versions of this board that have incorrectly placed components that
+ 6. **CAUTION**: There are some versions of this board that have incorrectly placed components that
     result in GPIO26–29 not working. One clue to these bad boards is look for silkscreen squares
     or brackets around components and clearly misaligned components in the [product
     shots](https://ae01.alicdn.com/kf/S07f83f6089e940089fe4febc34dc59faX.jpg).
- 6. The [pinout](https://ae01.alicdn.com/kf/S0fb5f9353ac14ab39286c5280e17fae4b.jpg) says “RGB LED”,
+ 7. The [pinout](https://ae01.alicdn.com/kf/S0fb5f9353ac14ab39286c5280e17fae4b.jpg) says “RGB LED”,
     but this is clearly a single colour LED.
- 7. This is undocumented, but VBus Detect has been reported to work and the required circuitry
+ 8. This is undocumented, but VBus Detect has been reported to work and the required circuitry
     appears to be in place.
 
 
