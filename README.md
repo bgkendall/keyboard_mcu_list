@@ -120,7 +120,7 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
     stores](https://www.aliexpress.com/w/wholesale-RP2040-Pro-Micro.html). However, see the
     following note…
  6. **CAUTION**: There are some versions of this board that have incorrectly placed components that
-    result in GPIO26–29 not working. One clue to these bad boards is look for silkscreen squares
+    result in GPIO26–29 not working. One clue to these bad boards is to look for silkscreen squares
     or brackets around components and clearly misaligned components in the [product
     shots](https://ae01.alicdn.com/kf/S07f83f6089e940089fe4febc34dc59faX.jpg).
  7. The [pinout](https://ae01.alicdn.com/kf/S0fb5f9353ac14ab39286c5280e17fae4b.jpg) says “RGB LED”,
