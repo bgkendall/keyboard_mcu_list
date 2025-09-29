@@ -32,6 +32,7 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 |                      |             | [Custom KBD][ck]       |  Black  | Yes  |       |                               |          |              |                   |          |             |           |          |   $17 |  $15 |   $32 |
 | **Sea-Picro RST**    | [Yes][Osp]  | None                   |  Black  | No   |  16MB | 0                             |   Mid    |    Top       | No                |   RGB    |     Yes     | 1 (front) |  GPIO19  |       |      |       |
 | **svlinky**          | [Yes][Osv]  | [fingerpunch][fp]      |  Black  | No   |   8MB | 9 VIK                         |   Mid    |    No        | No                |   Yes    |     No      | 0         |  GPIO19  |   $15 |  $10 |   $25 |
+| **Tiny RP2040**      | No          | [wisdPi][wp]           |  Green  | Yes  |   4MB | 5 bottom                      |   Top    |  Pads (tiny) | No?               | Blue, RGB|     No      | 1 (front) |  No?     |    $5 |   $4 |    $9 |
 
 [Ob2]: https://github.com/plut0nium/0xB2
 [Ocb]: https://github.com/0xCB-dev/0xCB-Helios
@@ -58,6 +59,7 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 [sf]: https://www.sparkfun.com/products/18288
 [sk]: https://splitkb.com/products/liatris
 [tr]: https://www.aliexpress.com/item/3256805943704472.html
+[wp]: https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash
 
 ### Notes on Columns
 
