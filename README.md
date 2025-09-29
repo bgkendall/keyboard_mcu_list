@@ -142,14 +142,17 @@ A small selection of RP2040-based controller boards that are *not* shaped like a
 | RP2040-Zero           | [Part][Op0] | [WaveShare][ws]    | 18.0×23.5 | Blue   | Yes  |   2MB | 20, 9 (pads) |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |    $4 |   $6 |   $10 |
 | Seeed XIAO RP2040     | [Part][Osx] | [Seeed Studio][ss] | 17.5×21.0 | Black  | Yes  |   2MB | 11           |    Top     |     No       |    Red    |RGB, 3RG&B|     No      | 2 (front) |  No      |    $5 |   $7 |   $12 |
 | Stampy                | No          | [Keebio][ke]       | 57.3×21.5 | Purple | No   |   2MB | 26           |    Top     |     No       |    No     |   No     |     No      | 1 (front) |  GPIO9   |   $13 |   $6 |   $19 |
+| Tiny 2040             | [Part][Opt] | [Pimoroni][pi]     | 18.2×22.9 | Black  | Yes  | 2/8MB | 12           |    Top     |     No       |    No     | 3 — RG&B |     No      | 2 (front) |  No      |    £9 |£4(UK)|   £13 |
 
 [Op0]: https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf
 [Opp]: https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico
+[Opt]: https://cdn.shopify.com/s/files/1/0174/1800/files/Tiny2040_PIM558_schematic.pdf
 [Oqt]: https://learn.adafruit.com/adafruit-qt-py-2040/downloads
 [Osx]: https://files.seeedstudio.com/wiki/XIAO-RP2040/res/Seeed-Studio-XIAO-RP2040-v1.3.pdf
 
 [af]: https://www.adafruit.com/product/4900
 [ke]: https://keeb.io/products/stampy-rp2040-usb-c-controller-board-for-handwiring
+[pi]: https://shop.pimoroni.com/products/tiny-2040
 [rp]: https://www.raspberrypi.com/products/raspberry-pi-pico/#find-reseller
 [ss]: https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
 [ws]: https://www.waveshare.com/rp2040-zero.htm
