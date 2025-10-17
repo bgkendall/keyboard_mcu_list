@@ -137,7 +137,7 @@ A small selection of RP2040-based controller boards that are *not* shaped like a
 
 | Name                  | Open        | Vendor             | Size (mm) | Colour | Cast.| Flash | Total GPIO   |  USB Port  | USB Brk. Out | Power LED | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
 |-----------------------|:-----------:|--------------------|:---------:|:------:|:----:|:-----:|--------------|:----------:|:------------:|:---------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
-| Adafruit QT Py RP2040 | [Yes][Oqt]  | [Adafruit][af]     | 17.8×21.8 | Black  | Yes  |   8MB | 11, 2 (QT)   |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |   $10 |   $5 |   $15 |
+| Adafruit QT Py RP2040 | [Yes][Oqt]  | [Adafruit][aq]     | 17.8×21.8 | Black  | Yes  |   8MB | 11, 2 (QT)   |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |   $10 |   $5 |   $15 |
 | Raspberry Pi Pico     | [Yes][Opp]  | [Various][rp]      | 21.0×51.3 | Green  | Yes  |   2MB | 26           | Top, Micro!|     Pads     |    No     |   RGB    |     No      | 1 (front) |  GPIO24  |    $4 |   $4 |    $8 |
 | RP2040-Zero           | [Part][Op0] | [WaveShare][ws]    | 18.0×23.5 | Blue   | Yes  |   2MB | 20, 9 (pads) |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |    $4 |   $6 |   $10 |
 | Seeed XIAO RP2040     | [Part][Osx] | [Seeed Studio][ss] | 17.5×21.0 | Black  | Yes  |   2MB | 11           |    Top     |     No       |    Red    |RGB, 3RG&B|     No      | 2 (front) |  No      |    $5 |   $7 |   $12 |
@@ -150,7 +150,7 @@ A small selection of RP2040-based controller boards that are *not* shaped like a
 [Oqt]: https://learn.adafruit.com/adafruit-qt-py-2040/downloads
 [Osx]: https://files.seeedstudio.com/wiki/XIAO-RP2040/res/Seeed-Studio-XIAO-RP2040-v1.3.pdf
 
-[af]: https://www.adafruit.com/product/4900
+[aq]: https://www.adafruit.com/product/4900
 [ke]: https://keeb.io/products/stampy-rp2040-usb-c-controller-board-for-handwiring
 [pi]: https://shop.pimoroni.com/products/tiny-2040
 [rp]: https://www.raspberrypi.com/products/raspberry-pi-pico/#find-reseller
