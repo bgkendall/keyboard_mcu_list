@@ -14,9 +14,9 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 | Name                 | Open        | Vendor                 | Colour  | Cast.| Flash | Extra GPIO                    | USB Port | USB Brk. Out | Power LED         | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
 |----------------------|:-----------:|------------------------|:-------:|:----:|:-----:|-------------------------------|:--------:|:------------:|:-----------------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
 | **0xB2 - splinky**   | [Yes][Ob2]  | [Bastard Keyboards][ba]|  Black  | No   | ≤16MB | 5 bottom                      |   Mid    |    No        | No                |   Yes    |     No      | 2 (front) |  GPIO19  | (€24) |    ? |     ? |
-| **0xCB-Helios**      | [Yes][Ocb]  | [KeebSupply][ks]       |  Black  | Yes  |  16MB | 5 bottom, 2 top, 1 inset (5V) |   Mid    |    Inset     | Red (optional)    |   Blue   |     Yes     | 1 (front) |  GPIO19  |   €16 |   EU |     ? |
-|                      |             | [Keycapsss][kc]        |         |      |       |                               |          |              |                   |          |             |           |          |   €16 |   €9 |   €25 |
-|                      |             | [Ringer Keys][rk]      |         |      |       |                               |          |              |                   |          |             |           |          |   $20 |   $5 |   $25 |
+| **0xCB-Helios**      | [Yes][Ohe]  | [KeebSupply][ksH]      |  Black  | Yes  |  16MB | 5 bottom, 2 top, 1 inset (5V) |   Mid    |    Inset     | Red (optional)    |   Blue   |     Yes     | 1 (front) |  GPIO19  |   €16 |   EU |     ? |
+|                      |             | [Keycapsss][kcH]       |         |      |       |                               |          |              |                   |          |             |           |          |   €16 |   €9 |   €25 |
+|                      |             | [Ringer Keys][rkH]     |         |      |       |                               |          |              |                   |          |             |           |          |   $20 |   $5 |   $25 |
 |                      |             | [RNDKBD][rn]           |         |      |       |                               |          |              |                   |          |             |           |          |   $18 |   $6 |   $24 |
 | **Bit-C PRO**        | No          | [nullbits][nb]         |Black, White|No |   4MB | 5 bottom                      |   Top    |    No        | Uses user LEDs    | 3 — RG&B |     Yes     | 0         |  No      |   $20 |   $0 |   $20 |
 | **Blok**             | No          | [Boardsource][bs]      |  Black  | Yes  |  16MB | 0; see note (1) below         |   Mid    |    No        | Purple            |   RGB    |     No      | 2 (side)  |  No      |   $14 |   $5 |   $19 |
@@ -35,28 +35,28 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 | **Tiny RP2040**      | No          | [wisdPi][wp]           |  Green  | Yes  |   4MB | 5 bottom                      |   Top    |  Pads (tiny) | No?               | Blue, RGB|     No      | 1 (front) |  No?     |    $5 |   $4 |    $9 |
 
 [Ob2]: https://github.com/plut0nium/0xB2
-[Ocb]: https://github.com/0xCB-dev/0xCB-Helios
 [Ofr]: https://github.com/piit79/Frood
+[Ohe]: https://github.com/0xCB-dev/0xCB-Helios
 [Opm]: https://github.com/sparkfun/SparkFun_Pro_Micro-RP2040
 [Osp]: https://github.com/joshajohnson/sea-picro
 [Osv]: https://github.com/sadekbaroudi/svlinky
 
-[1u]: https://1upkeyboards.com/shop/controllers/elite-pi-controller/
-[42]: https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/
-[af]: https://www.adafruit.com/product/5302
-[ba]: https://bastardkb.com/product/splinky-rp2040-controller/
-[bk]: https://shop.beekeeb.com/product/sea-picro/
-[bo]: https://booth.pm/ja/items/3703539
-[bs]: https://www.boardsource.xyz/store/628b95b494dfa308a6581622
-[ck]: https://customkbd.com/collections/microcontrollers/products/sea-picro
-[fp]: https://fingerpunch.xyz/product/svlinky/
-[io]: https://keeb.io/products/elite-pi-usb-c-pro-micro-replacement-rp2040
-[kc]: https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040?c=22
-[ks]: https://keeb.supply/products/0xcb-helios
-[nb]: https://nullbits.co/bit-c-pro/
-[rk]: https://ringerkeys.com/collections/modders-tools/products/0xcb-helios
-[rn]: https://rndkbd.com/products/0xcb-helios-microcontroller
-[sf]: https://www.sparkfun.com/products/18288
+[1u]:  https://1upkeyboards.com/shop/controllers/elite-pi-controller/
+[42]:  https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/
+[af]:  https://www.adafruit.com/product/5302
+[ba]:  https://bastardkb.com/product/splinky-rp2040-controller/
+[bk]:  https://shop.beekeeb.com/product/sea-picro/
+[bo]:  https://booth.pm/ja/items/3703539
+[bs]:  https://www.boardsource.xyz/store/628b95b494dfa308a6581622
+[ck]:  https://customkbd.com/collections/microcontrollers/products/sea-picro
+[fp]:  https://fingerpunch.xyz/product/svlinky/
+[io]:  https://keeb.io/products/elite-pi-usb-c-pro-micro-replacement-rp2040
+[kcH]: https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040?c=22
+[ksH]: https://keeb.supply/products/0xcb-helios
+[nb]:  https://nullbits.co/bit-c-pro/
+[rkH]: https://ringerkeys.com/collections/modders-tools/products/0xcb-helios
+[rn]:  https://rndkbd.com/products/0xcb-helios-microcontroller
+[sf]:  https://www.sparkfun.com/products/18288
 [sk]: https://splitkb.com/products/liatris
 [tr]: https://www.aliexpress.com/item/3256805943704472.html
 [wp]: https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash
@@ -137,6 +137,9 @@ A small selection of RP2040-based controller boards that are *not* shaped like a
 
 | Name                  | Open        | Vendor             | Size (mm) | Colour | Cast.| Flash | Total GPIO   |  USB Port  | USB Brk. Out | Power LED | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
 |-----------------------|:-----------:|--------------------|:---------:|:------:|:----:|:-----:|--------------|:----------:|:------------:|:---------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
+| 0xCB Gemini           | [Yes][Oge]  | [KeebSupply][ksG]  | 17.5×21.0 | Black  | Yes  |  16MB | 20, 9 (pads) |    Top     |     Pads     |    No     |   RGB    |     Yes     | 1 (front) |  GPIO19  |   €12 |   €4 |   €16 |
+|                       |             | [Keycapsss][kcG]   |           |        |      |       |              |            |              |           |          |             |           |          |   €12 |   €7 |   €19 |
+|                       |             | [Ringer Keys][rkG] |           |        |      |       |              |            |              |           |          |             |           |          |   $15 |   $6 |   $21 |
 | Adafruit QT Py RP2040 | [Yes][Oqt]  | [Adafruit][aq]     | 17.8×21.8 | Black  | Yes  |   8MB | 11, 2 (QT)   |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |   $10 |   $5 |   $15 |
 | Raspberry Pi Pico     | [Yes][Opp]  | [Various][rp]      | 21.0×51.3 | Green  | Yes  |   2MB | 26           | Top, Micro!|     Pads     |    No     |   RGB    |     No      | 1 (front) |  GPIO24  |    $4 |   $4 |    $8 |
 | RP2040-Zero           | [Part][Op0] | [WaveShare][ws]    | 18.0×23.5 | Blue   | Yes  |   2MB | 20, 9 (pads) |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |    $4 |   $6 |   $10 |
@@ -144,15 +147,19 @@ A small selection of RP2040-based controller boards that are *not* shaped like a
 | Stampy                | No          | [Keebio][ke]       | 57.3×21.5 | Purple | No   |   2MB | 26           |    Top     |     No       |    No     |   No     |     No      | 1 (front) |  GPIO9   |   $13 |   $6 |   $19 |
 | Tiny 2040             | [Part][Opt] | [Pimoroni][pi]     | 18.2×22.9 | Black  | Yes  | 2/8MB | 12           |    Top     |     No       |    No     | 3 — RG&B |     No      | 2 (front) |  No      |    £9 |£4(UK)|   £13 |
 
+[Oge]: https://github.com/0xCB-dev/0xCB-Gemini
 [Op0]: https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf
 [Opp]: https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico
 [Opt]: https://cdn.shopify.com/s/files/1/0174/1800/files/Tiny2040_PIM558_schematic.pdf
 [Oqt]: https://learn.adafruit.com/adafruit-qt-py-2040/downloads
 [Osx]: https://files.seeedstudio.com/wiki/XIAO-RP2040/res/Seeed-Studio-XIAO-RP2040-v1.3.pdf
 
-[aq]: https://www.adafruit.com/product/4900
-[ke]: https://keeb.io/products/stampy-rp2040-usb-c-controller-board-for-handwiring
-[pi]: https://shop.pimoroni.com/products/tiny-2040
-[rp]: https://www.raspberrypi.com/products/raspberry-pi-pico/#find-reseller
-[ss]: https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
-[ws]: https://www.waveshare.com/rp2040-zero.htm
+[aq]:  https://www.adafruit.com/product/4900
+[kcG]: https://keycapsss.com/keyboard-parts/mcu-controller/277/0xcb-gemini-waveshare-rp2040-zero-compatible-microcontroller
+[ke]:  https://keeb.io/products/stampy-rp2040-usb-c-controller-board-for-handwiring
+[ksG]: https://keeb.supply/products/0xcb-gemini
+[pi]:  https://shop.pimoroni.com/products/tiny-2040
+[rkG]: https://ringerkeys.com/products/0xcb-gemini
+[rp]:  https://www.raspberrypi.com/products/raspberry-pi-pico/#find-reseller
+[ss]:  https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
+[ws]:  https://www.waveshare.com/rp2040-zero.htm
