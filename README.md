@@ -135,17 +135,17 @@ boards](https://github.com/joric/nrfmicro/wiki/Alternatives).
 
 A small selection of RP2040-based controller boards that are *not* shaped like a Pro Micro.
 
-| Name                  | Open        | Vendor             | Size (mm) | Colour | Cast.| Flash | Total GPIO   |  USB Port  | USB Brk. Out | Power LED | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
-|-----------------------|:-----------:|--------------------|:---------:|:------:|:----:|:-----:|--------------|:----------:|:------------:|:---------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
-| 0xCB Gemini           | [Yes][Oge]  | [KeebSupply][ksG]  | 17.5×21.0 | Black  | Yes  |  16MB | 20, 9 (pads) |    Top     |     Pads     |    No     |   RGB    |     Yes     | 1 (front) |  GPIO19  |   €12 |   €4 |   €16 |
-|                       |             | [Keycapsss][kcG]   |           |        |      |       |              |            |              |           |          |             |           |          |   €12 |   €7 |   €19 |
-|                       |             | [Ringer Keys][rkG] |           |        |      |       |              |            |              |           |          |             |           |          |   $15 |   $6 |   $21 |
-| Adafruit QT Py RP2040 | [Yes][Oqt]  | [Adafruit][aq]     | 17.8×21.8 | Black  | Yes  |   8MB | 11, 2 (QT)   |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |   $10 |   $5 |   $15 |
-| Raspberry Pi Pico     | [Yes][Opp]  | [Various][rp]      | 21.0×51.3 | Green  | Yes  |   2MB | 26           | Top, Micro!|     Pads     |    No     |   RGB    |     No      | 1 (front) |  GPIO24  |    $4 |   $4 |    $8 |
-| RP2040-Zero           | [Part][Op0] | [WaveShare][ws]    | 18.0×23.5 | Blue   | Yes  |   2MB | 20, 9 (pads) |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |    $4 |   $6 |   $10 |
-| Seeed XIAO RP2040     | [Part][Osx] | [Seeed Studio][ss] | 17.5×21.0 | Black  | Yes  |   2MB | 11           |    Top     |     No       |    Red    |RGB, 3RG&B|     No      | 2 (front) |  No      |    $5 |   $7 |   $12 |
-| Stampy                | No          | [Keebio][ke]       | 57.3×21.5 | Purple | No   |   2MB | 26           |    Top     |     No       |    No     |   No     |     No      | 1 (front) |  GPIO9   |   $13 |   $6 |   $19 |
-| Tiny 2040             | [Part][Opt] | [Pimoroni][pi]     | 18.2×22.9 | Black  | Yes  | 2/8MB | 12           |    Top     |     No       |    No     | 3 — RG&B |     No      | 2 (front) |  No      |    £9 |£4(UK)|   £13 |
+| Name                      | Open        | Vendor             | Size (mm) | Colour | Cast.| Flash | Total GPIO   |  USB Port  | USB Brk. Out | Power LED | User LED | 1-Btn. Boot |  Buttons  | VBus Det.| Price | Ship.| Total |
+|---------------------------|:-----------:|--------------------|:---------:|:------:|:----:|:-----:|--------------|:----------:|:------------:|:---------:|:--------:|:-----------:|:---------:|:--------:|------:|-----:|------:|
+| **0xCB Gemini**           | [Yes][Oge]  | [KeebSupply][ksG]  | 17.5×21.0 | Black  | Yes  |  16MB | 20, 9 (pads) |    Top     |     Pads     |    No     |   RGB    |     Yes     | 1 (front) |  GPIO19  |   €12 |   €4 |   €16 |
+|                           |             | [Keycapsss][kcG]   |           |        |      |       |              |            |              |           |          |             |           |          |   €12 |   €7 |   €19 |
+|                           |             | [Ringer Keys][rkG] |           |        |      |       |              |            |              |           |          |             |           |          |   $15 |   $6 |   $21 |
+| **Adafruit QT Py RP2040** | [Yes][Oqt]  | [Adafruit][aq]     | 17.8×21.8 | Black  | Yes  |   8MB | 11, 2 (QT)   |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |   $10 |   $5 |   $15 |
+| **Raspberry Pi Pico**     | [Yes][Opp]  | [Various][rp]      | 21.0×51.3 | Green  | Yes  |   2MB | 26           | Top, Micro!|     Pads     |    No     |   RGB    |     No      | 1 (front) |  GPIO24  |    $4 |   $4 |    $8 |
+| **RP2040-Zero**           | [Part][Op0] | [WaveShare][ws]    | 18.0×23.5 | Blue   | Yes  |   2MB | 20, 9 (pads) |    Top     |     No       |    No     |   RGB    |     No      | 2 (front) |  No      |    $4 |   $6 |   $10 |
+| **Seeed XIAO RP2040**     | [Part][Osx] | [Seeed Studio][ss] | 17.5×21.0 | Black  | Yes  |   2MB | 11           |    Top     |     No       |    Red    |RGB, 3RG&B|     No      | 2 (front) |  No      |    $5 |   $7 |   $12 |
+| **Stampy**                | No          | [Keebio][ke]       | 57.3×21.5 | Purple | No   |   2MB | 26           |    Top     |     No       |    No     |   No     |     No      | 1 (front) |  GPIO9   |   $13 |   $6 |   $19 |
+| **Tiny 2040**             | [Part][Opt] | [Pimoroni][pi]     | 18.2×22.9 | Black  | Yes  | 2/8MB | 12           |    Top     |     No       |    No     | 3 — RG&B |     No      | 2 (front) |  No      |    £9 |£4(UK)|   £13 |
 
 [Oge]: https://github.com/0xCB-dev/0xCB-Gemini
 [Op0]: https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf
